@@ -1,75 +1,102 @@
-.top-container {
-  margin: 0;
-width: 342px;
-height: 334px;
+body {
+    position: absolute;
+    margin: 0;
 }
-.test3 {
-color: white;
-}
+
 .hero-bg {
-  position: relative;
-  margin: 0;
-  background: rgba(199, 221, 234, 1);¨
+    background-color: #C7DDEA;
+    position: absolute;
+    width: 375px;
+    height: 724px;
+    /* padding-top: 20px; */
+}
 
-
-  background-image: url("../img/family.png"), url("../img/family.png");
+.background2 {
+    position: absolute;
+    width: 342px;
+    height: 334px;
+    padding: 390px 15px 0px 18px;
 }
 
 .test {
-  position: absolute;
+    position: absolute;
     width: 343px;
     height: 101px;
-    margin: 0;
     font-family: Frank Ruhl Libre;
-    font-style: bold;
+    font-style: normal;
     font-weight: 900;
     font-size: 45px;
     line-height: 100%;
-    letter-spacing: -0.02em
+    margin: 0;
     padding: 71px 15px 552px 17px;
-  
+    letter-spacing: -0.02em;
+    color: #000000;
 }
+
 .para {
-    position: absolute;
-    padding: 186px 15px 435px 17px;
     position: absolute;
     width: 343px;
     height: 103px;
-    
     font-family: Fira Sans;
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 24px;
-    /* or 171% */
-    
-    
+    padding: 186px 15px 435px 17px;
     color: rgba(0, 0, 0, 0.6);
 }
-.span {
-  color: white;
-}
+
 .btn {
+    position: absolute;
+    width: 101px;
+    height: 30px;
+    font-family: Fira Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 10px;
+    line-height: 12px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.8);
+    position: absolute;
+    width: 131px;
+    height: 39px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.1);
+    border-radius: 100px;
+    margin: 302px 227px 382px 17px;
+    border-style: none;
+}
 
-width: 131px;
-height: 39px;
-margin: 306px 241px 388px 33px;
-padding: 4px 15px 5px 16px;
-background: #FFFFFF;
-box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.1);
-border-radius: 100px;
-position: absolute;
-width: 101px;
-height: 30px;
+.test3 {
+    color: white;
+}
 
-font-family: Fira Sans;
-font-style: normal;
-font-weight: bold;
-font-size: 10px;
-line-height: 12px;
-display: flex;
-align-items: center;
-text-align: center;
+.learn {
+    position: absolute;
+    width: 375px;
+    height: 315px;
+    left: 0px;
+    top: 724px;
+    background: #F17949;
+}
 
-color: rgba(0, 0, 0, 0.8);
+.para2 {
+    position: absolute;
+    width: 187px;
+    height: 19px;
+    left: 94px;
+    top: 847px;
+    font-family: Fira Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 11px;
+    line-height: 13px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: rgba(0, 0, 0, 0.5);
+    padding: 123px 93px 173px 94px;
 }
