@@ -8,7 +8,7 @@ body {
     position: absolute;
     width: 375px;
     height: 724px;
-    /* padding-top: 20px; */
+    padding-top: 20px;
 }
 
 .background2 {
@@ -82,6 +82,16 @@ body {
     background: #F17949;
 }
 
+.learn-more {
+    position: absolute;
+    width: 375px;
+    height: 315px;
+    left: 0px;
+    top: 724px;
+    background: #F17949;
+    padding: 145px 94px 123px 94px;
+}
+
 .para2 {
     position: absolute;
     width: 187px;
@@ -98,5 +108,5 @@ body {
     text-align: center;
     letter-spacing: -0.02em;
     color: rgba(0, 0, 0, 0.5);
-    padding: 123px 93px 173px 94px;
+    padding: 123px 94px 173px 94px;
 }
