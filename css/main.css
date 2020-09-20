@@ -1,112 +1,180 @@
-body {
-    position: absolute;
-    margin: 0;
-}
-
-.hero-bg {
-    background-color: #C7DDEA;
-    position: absolute;
-    width: 375px;
-    height: 724px;
-    padding-top: 20px;
-}
-
-.background2 {
-    position: absolute;
-    width: 342px;
-    height: 334px;
-    padding: 390px 15px 0px 18px;
-}
-
-.test {
-    position: absolute;
-    width: 343px;
-    height: 101px;
-    font-family: Frank Ruhl Libre;
-    font-style: normal;
-    font-weight: 900;
-    font-size: 45px;
-    line-height: 100%;
-    margin: 0;
-    padding: 71px 15px 552px 17px;
-    letter-spacing: -0.02em;
-    color: #000000;
-}
-
-.para {
-    position: absolute;
-    width: 343px;
-    height: 103px;
-    font-family: Fira Sans;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 24px;
-    padding: 186px 15px 435px 17px;
-    color: rgba(0, 0, 0, 0.6);
-}
-
-.btn {
-    position: absolute;
-    width: 101px;
-    height: 30px;
-    font-family: Fira Sans;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 10px;
-    line-height: 12px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    color: rgba(0, 0, 0, 0.8);
-    position: absolute;
-    width: 131px;
-    height: 39px;
-    background: #FFFFFF;
-    box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.1);
-    border-radius: 100px;
-    margin: 302px 227px 382px 17px;
-    border-style: none;
-}
-
-.test3 {
-    color: white;
-}
-
-.learn {
-    position: absolute;
-    width: 375px;
-    height: 315px;
-    left: 0px;
-    top: 724px;
-    background: #F17949;
-}
-
-.learn-more {
-    position: absolute;
-    width: 375px;
-    height: 315px;
-    left: 0px;
-    top: 724px;
-    background: #F17949;
-    padding: 145px 94px 123px 94px;
-}
-
-.para2 {
-    position: absolute;
-    width: 187px;
-    height: 19px;
-    left: 94px;
-    top: 847px;
-    font-family: Fira Sans;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 11px;
-    line-height: 13px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    letter-spacing: -0.02em;
-    color: rgba(0, 0, 0, 0.5);
-    padding: 123px 94px 173px 94px;
-}
+                body {
+                    position: absolute;
+                    margin: 0;
+                }
+                
+                .hero-bg {
+                    background-color: #C7DDEA;
+                    position: absolute;
+                    width: 375px;
+                    height: 724px;
+                    padding-top: 20px;
+                }
+                
+                .bg2 {
+                    position: absolute;
+                    width: 342px;
+                    height: 334px;
+                    padding: 390px 15px 0px 18px;
+                }
+                
+                .test {
+                    /* We´ve got you Covered. */
+                    position: absolute;
+                    width: 343px;
+                    height: 101px;
+                    font-family: Frank Ruhl Libre;
+                    font-style: normal;
+                    font-weight: 900;
+                    font-size: 45px;
+                    line-height: 100%;
+                    /* or 45px */
+                    letter-spacing: -0.02em;
+                    color: #000000;
+                    padding: 71px 15px 552px 17px;
+                    border-radius: nullpx;
+                    margin: 0;
+                }
+                
+                .para {
+                    position: absolute;
+                    width: 343px;
+                    height: 103px;
+                    font-family: Fira Sans;
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 14px;
+                    line-height: 24px;
+                    padding: 186px 15px 435px 17px;
+                    color: rgba(0, 0, 0, 0.6);
+                }
+                
+                .btn {
+                    position: absolute;
+                    width: 101px;
+                    height: 30px;
+                    font-family: Fira Sans;
+                    font-style: normal;
+                    font-weight: bold;
+                    font-size: 10px;
+                    line-height: 12px;
+                    display: flex;
+                    align-items: center;
+                    text-align: center;
+                    color: rgba(0, 0, 0, 0.8);
+                    position: absolute;
+                    width: 131px;
+                    height: 39px;
+                    background: #FFFFFF;
+                    box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.1);
+                    border-radius: 100px;
+                    margin: 302px 227px 382px 17px;
+                    border-style: none;
+                }
+                
+                .test3 {
+                    color: white;
+                }
+                
+                .learn {
+                    position: absolute;
+                    width: 375px;
+                    height: 315px;
+                    left: 0px;
+                    top: 724px;
+                    background: #F17949;
+                }
+                
+                .learn-more {
+                    font-family: Frank Ruhl Libre;
+                    font-style: normal;
+                    font-weight: 900;
+                    font-size: 32px;
+                    line-height: 41px;
+                    display: flex;
+                    align-items: center;
+                    text-align: center;
+                    letter-spacing: -0.02em;
+                    color: #FFFFFF;
+                    padding: 145px 94px 123px 94px;
+                }
+                
+                .para2 {
+                    position: absolute;
+                    padding: 123px 94px 173px 94px;
+                    margin: 0;
+                    font-family: Fira Sans;
+                    font-style: normal;
+                    font-weight: bold;
+                    font-size: 11px;
+                    line-height: 13px;
+                    display: flex;
+                    align-items: center;
+                    text-align: center;
+                    letter-spacing: -0.02em;
+                    color: rgba(0, 0, 0, 0.5);
+                    height: 17px;
+                    width: 250px;
+                    left: 20px;
+                    border-radius: nullpx;
+                }
+                
+                .join {
+                    position: absolute;
+                    width: 375px;
+                    height: 315px;
+                    left: 0px;
+                    top: 1039px;
+                    background: #FAB131;
+                }
+                
+                .waiting {
+                    height: 17px;
+                    width: 250px;
+                    left: 62px;
+                    top: 1152px;
+                    border-radius: nullpx;
+                    padding: 100px 63px 0px 90px;
+                }
+                
+                .jointoday {
+                    position: absolute;
+                    width: 250px;
+                    height: 41px;
+                    left: 62px;
+                    font-family: Frank Ruhl Libre;
+                    font-style: normal;
+                    font-weight: 900;
+                    font-size: 32px;
+                    line-height: 41px;
+                    display: flex;
+                    align-items: center;
+                    text-align: center;
+                    letter-spacing: -0.02em;
+                    color: #ffffff;
+                    margin: 0;
+                    padding: 20px 63px 144px 40px;
+                }
+                
+                .mitten {
+                    position: absolute;
+                    width: 375px;
+                    height: 1580px;
+                    left: 0px;
+                    top: 1354px;
+                    background: #A9A19E;
+                    margin: 0;
+                }
+                
+                .mittenhead {
+                    position: relative;
+                    font-family: Frank Ruhl Libre;
+                    font-style: normal;
+                    font-weight: 900;
+                    font-size: 45px;
+                    line-height: 100%;
+                    /* or 45px */
+                    letter-spacing: -0.02em;
+                    color: #bb1a1a;
+                    padding: -20000px 63px 144px 40px;
+                }
