@@ -1,0 +1,158 @@
+.body {
+    display: flex;
+}
+
+.topbox {
+    width: 375px;
+    height: 315px;
+    background: rgba(241, 121, 73, 1);
+    top: 724px;
+    left: 0px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    overflow: hidden;
+    position: absolute;
+    display: flex;
+    z-index: 1;
+}
+
+.midbox {
+    width: 375px;
+    height: 315px;
+    background: rgba(250, 177, 49, 1);
+    position: absolute;
+    display: flex;
+    top: 1039px;
+    left: 0px;
+    overflow: hidden;
+}
+
+.topbox-t {
+    width: 187px;
+    color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    display: flex;
+    top: 847px;
+    left: 94px;
+    font-family: Fira Sans;
+    font-weight: Bold;
+    font-size: 11px;
+    opacity: 1;
+    text-align: center;
+    z-index: 2;
+}
+
+.topbox-h {
+    width: 187px;
+    color: rgba(255, 255, 255, 1);
+    position: absolute;
+    top: 869px;
+    display: flex;
+    left: 94px;
+    font-family: Frank Ruhl Libre;
+    font-size: 32px;
+    opacity: 1;
+    text-align: center;
+    z-index: 2;
+}
+
+.midbox-t {
+    width: 250px;
+    color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 1152px;
+    display: flex;
+    left: 62px;
+    font-family: Fira Sans;
+    font-weight: Bold;
+    font-size: 11px;
+    opacity: 1;
+    text-align: center;
+}
+
+.midbox-h {
+    width: 250px;
+    color: rgba(255, 255, 255, 1);
+    position: absolute;
+    display: flex;
+    top: 1169px;
+    left: 62px;
+    font-family: Frank Ruhl Libre;
+    font-size: 32px;
+    opacity: 1;
+    text-align: center;
+}
+
+.toptop {
+    width: 375px;
+    height: 724px;
+    display: flex;
+    left: -16px;
+    top: -21px;
+    background: #C7DDEA;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    position: absolute;
+}
+
+.imgfamily {
+    position: absolute;
+    display: flex;
+    border-radius: 0px;
+    width: 342px;
+    height: 334px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    padding: 411px 1px 21px 34px;
+    overflow: hidden;
+}
+
+.btn {
+    font-family: Fira Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 10px;
+    line-height: 12px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.8);
+    position: absolute;
+    width: 131px;
+    height: 39px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.1);
+    border-radius: 100px;
+    margin: 302px 227px 382px 17px;
+    border-style: none;
+}
+
+.join {
+    position: absolute;
+    display: flex;
+    width: 343px;
+    height: 101px;
+    font-family: Frank Ruhl Libre;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 45px;
+    line-height: 100%;
+    letter-spacing: -0.02em;
+    color: #000000;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding: 92px 1px 531px 33px;
+    margin: 0px 0px 14px 0px;
+}
+
+.quote1 {
+    position: absolute;
+    width: 310px;
+    display: flex;
+    height: 103px;
+    font-family: Fira Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    color: rgba(0, 0, 0, 0.6);
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding: 207px 1px 414px 33px;
+    margin: 0px 0px 13px 0px;
+}
