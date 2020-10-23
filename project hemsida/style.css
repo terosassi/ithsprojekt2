@@ -1,0 +1,412 @@
+/* general stylings */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+p {
+    font-family: Fira Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+a,
+a:active {
+    color: #000000;
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+h2 {
+    font-family: Frank Ruhl Libre;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 41px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+}
+
+body {
+    font-family: 'Fira Sans', sans-serif;
+    height: 100%;
+    width: 100%;
+}
+
+
+/* main area stylings */
+
+.header {
+    height: 80vh;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-auto-rows: 200px;
+}
+
+.main {
+    background: #C7DDEA;
+    grid-column: 1 / 7;
+    grid-row: 1 /-1;
+    background-image: url(assests/image\ 2.svg);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    /* display: grid;
+    justify-content: center;
+    align-items: center; */
+}
+
+.aside {
+    background: #F17949;
+    grid-column: 7 / -1;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.side {
+    background: #FAB131;
+    grid-column: 7 / -1;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-content {
+    margin: 10% auto 10% 25%;
+    max-width: 37%;
+}
+
+h1 {
+    margin: 20px 0;
+    font-family: Frank Ruhl Libre;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 45px;
+    line-height: 100%;
+    letter-spacing: -0.02em;
+    color: #000000;
+}
+
+.main-content p span {
+    color: #FFFFFF;
+}
+
+.btn {
+    border: none;
+    text-decoration: none;
+    margin-top: 40px;
+    width: 131px;
+    height: 39px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.1);
+    border-radius: 100px;
+}
+
+.aside p,
+.side p {
+    text-align: center;
+    font-weight: bold;
+    font-size: 11px;
+    line-height: 13px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+
+/* styling for navbar */
+
+nav {
+    height: 10vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background: #E5E5E5;
+}
+
+nav li a {
+    font-size: 12px;
+    color: grey;
+}
+
+a:hover {
+    color: black;
+}
+
+nav li a.active {
+    color: black;
+}
+
+.cta {
+    height: 60vh;
+    background: #A9A19E;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.cta-heading {
+    max-width: 20%;
+}
+
+.cta-txt {
+    max-width: 20%;
+}
+
+.cta-heading h1 {
+    color: #FFFFFF;
+}
+
+
+/* styling for cards */
+
+.cards {
+    padding-top: 6%;
+    display: flex;
+    text-align: center;
+    background: #A9A19E;
+    justify-content: space-evenly;
+}
+
+.card {
+    max-width: 23%;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    margin-bottom: -200px;
+}
+
+.rectangle {
+    padding-top: 20px;
+    width: 90%;
+    margin: -25px auto 40px auto;
+    background-color: #C7DDEA;
+    border-radius: 4px;
+}
+
+.rectangle.orange {
+    background: #FAB131;
+    padding-top: 30px;
+}
+
+.rectangle.somered {
+    background: #F17949;
+}
+
+.title {
+    font-family: Frank Ruhl Libre;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    color: rgba(0, 0, 0, 0.9);
+    margin-bottom: 2%;
+}
+
+.card p.cards-description {
+    margin-bottom: 60px;
+    margin: 20px auto 60px auto;
+    max-width: 80%;
+    font-family: Fira Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 11px;
+    line-height: 18px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.4);
+}
+
+.about-us {
+    height: 80vh;
+    background: #FAB131;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: baseline;
+    align-items: center;
+    text-align: center;
+    padding-top: 200px;
+}
+
+.about-us p {
+    max-width: 40%;
+    padding: 20px 0 10px 0;
+}
+
+.about-us h1 {
+    color: #FFFFFF;
+}
+
+
+/* styling for bottom how it works boxes */
+
+.works {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 45vh;
+}
+
+.box span {
+    position: absolute;
+    /* top: 0; */
+    /* left: 0; */
+}
+
+.box {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2%;
+}
+
+.box span {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    font-family: Frank Ruhl Libre;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 35px;
+    line-height: 100%;
+    letter-spacing: -0.02em;
+    color: rgba(0, 0, 0, 0.4);
+}
+
+.box.blue {
+    background: #C7DDEA;
+}
+
+.box h1,
+h4 {
+    text-align: center;
+}
+
+.box.white {
+    background: #FFFFFF;
+}
+
+.box.grey {
+    background: #EBEBEB;
+}
+
+.box.orange {
+    background: #F17949;
+}
+
+h4 {
+    font-family: Fira Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 20px;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+
+/* back to top section */
+
+.backtotop {
+    background: #A9A19E;
+    padding: 20px;
+    text-align: center;
+}
+
+.backtotop {
+    text-align: center;
+}
+
+.footer {
+    background: #777574;
+    height: 50vh;
+}
+
+.footer p {
+    display: none;
+}
+
+
+/* responsive media queries starts here */
+
+@media (max-width:768px) {
+    * {
+        max-width: 100% !important;
+        margin: 0 !important;
+        padding: 0;
+    }
+    .header {
+        display: block;
+        height: 150vh;
+    }
+    .main {
+        height: 90vh;
+        background-position: bottom;
+    }
+    .main-content {
+        margin-top: 20vh;
+        padding: 20% 10%;
+    }
+    button.btn {
+        margin-top: 40px !important;
+    }
+    .aside {
+        height: 30vh;
+    }
+    .side {
+        height: 30vh;
+    }
+    nav {
+        display: none;
+    }
+    .cta {
+        display: block;
+        padding: 10%;
+        height: 90vh;
+    }
+    .cta-txt {
+        padding-top: 10%;
+    }
+    .cta-heading .btn {
+        display: none;
+    }
+    .cards {
+        height: 190vh;
+        flex-direction: column;
+        padding: 40% 20%;
+    }
+    .card {
+        margin: 20px auto 40px auto !important;
+    }
+    .rectangle {
+        margin: -25px auto 40px auto !important;
+    }
+    .title {
+        margin-bottom: 2% !important;
+    }
+    .card p.cards-description {
+        margin: 20px auto 60px auto !important;
+    }
+    .about-us {
+        padding-top: 20%;
+        height: 90vh;
+        padding: 10%;
+    }
+    .works {
+        display: block;
+    }
+    .box {
+        height: 40vh;
+    }
+    .backtotop {
+        display: none;
+    }
+}
