@@ -57,7 +57,7 @@ body {
     background: #C7DDEA;
     grid-column: 1 / 7;
     grid-row: 1 /-1;
-    background-image: url(assests/image\ 2.svg);
+    background-image: url(img/2.svg);
     background-repeat: no-repeat;
     background-position: bottom right;
     /* display: grid;
