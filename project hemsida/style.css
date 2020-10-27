@@ -1,4 +1,4 @@
-/* general stylings */
+* general stylings */
 *{ 
     margin: 0;
     padding: 0;
@@ -284,12 +284,11 @@ h4{
     text-align: center;
 }
 .footer{
+    
     background: #777574;
     height: 50vh;
 }
-.footer p{
-    display: none;
-}
+
 
 /* responsive media queries starts here */
 @media (max-width:768px){
@@ -369,4 +368,103 @@ h4{
     .footer{
         height: 30vh;
     }
+}
+
+/* contact page */
+
+.contact-main {
+    width: 100%;
+    background: #C7DDEA;
+    
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    display: flex;
+
+}
+
+.contact-main {
+    padding: 0 0 0 10rem;
+    align-items: center;
+    justify-content: center;
+}
+.contact-img {
+    margin: 5rem 0 0 0;
+    flex: right;
+    align-self: flex-end;
+    justify-self: flex-end;
+}
+.contact {
+    padding: 15% 15% 10% 10%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    color: white !important;
+    background-color: #A9A19E;
+
+}
+.cont-left {
+padding-right: 10%;
+}
+
+.contacth1 {
+    color: white !important;
+}
+.email {
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 3px;
+    border-style: none;
+}
+.cont-form {
+    width: 100%;
+    line-height: 2;
+
+}
+.textarea {
+    width: 100%;
+    height: 10rem;
+    padding: 1rem;
+    font-family: Fira Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    color: rgb(0, 0, 0);
+    border-style: none;
+    border-radius: 3px;
+}
+.sub-btn{
+    display: flex;
+    flex: right;
+}
+
+.map {
+    background-image: url(img/Rectangle.png);
+    background-position: center center; 
+    background-size: auto; 
+    height: 100%;
+    width: 100%;
+    display: flex;
+    padding: 5% 0 0 10%;
+
+}
+.visit-us {
+    padding: 1.5rem;
+    background: #FAB131;
+    max-height: 13rem;
+}
+.visit-us h1, p {
+    color:white;
+}
+.marker {
+    /* Vector */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+left: 47.57%;
+right: 47.57%;
+top: 40.91%;
+bottom: 54.97%;
+
+background: #F17949;
+
 }
