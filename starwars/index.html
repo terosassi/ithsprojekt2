@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<link rel="stylesheet" href="stylesheet.css">
+<script src="script.js" defer></script> 
+</head>
+
+<body class="home_image_one">
+  <h1 style="color: yellow; padding: 27px; font-size: 50px;">
+	STAR WARS <br> CATALOG
+  </h1>
+  <div id="wrapper">
+	<div id="child">
+	<div id="one" class="box">
+		<div class="listGroup">
+        <a style="font-weight: 600; font-size: 20px; text-align: center;background-color: #535556; color: yellow;"  
+		class="list-Group-Item list-Group-Item-action active">
+          Characters
+        </a>
+		<div id= "charactersDiv" style="display: none;">
+			<table id= "tableData" class="tableContent">
+				<tbody id = "table_data">
+									
+				</tbody>
+			</table>
+			<div class="pagination">
+			  <a id = "previousBtn">&laquo;</a>
+			  <a id = "padination_text">1</a>
+			  <a id = "nextBtn" >&raquo;</a>
+			</div>
+		</div>
+		<div id= "loader" class="loader"></div>
+		</div>
+	</div>
+	<div id="two" class="box">
+		<div class="listGroup">
+        <a style="font-weight: 600; font-size: 20px; text-align: center;background-color: #748687; color: yellow;"  class="list-Group-Item list-Group-Item-action active">
+          Details
+        </a>
+			
+			<div style = "height: 265px;">
+				<div id="DetailsDiv" style="display: none;">
+					<h2 id ="character_name">Name</h2>
+					<p id ="details">Name</p>
+				</div>
+				<div id= "loader1" style=" margin-top: 130px;" class="loader"></div>
+			</div>
+			<div style = "height: 265px; background-color: #8e8e8e;">
+				<div id="PlanetDiv" style="display: none;">
+					<h2 id = "planet_name">Name</h2>
+					<p id = "planet_details">Name</p>
+				</div>
+				<div id= "loader2" style=" margin-top: 130px;" class="loader"></div>
+			</div>
+			
+		</div>
+	</div>
+	</div>
+  </div>
+</body>
+<body>
+</html>
