@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,600');
 body {
     margin: 0;
-    background: white;
+    background: #A9B2B9;
     font-family: 'Montserrat', 'sans-seriaf';
 }
 
@@ -11,6 +11,7 @@ p {
 }
 
 ul {
+    text-align: center;
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -31,6 +32,11 @@ header {
     justify-content: space-between;
 }
 
+.show-desktop li {
+    text-align: center;
+    padding-right: 3em;
+}
+
 .hide-mobile {
     display: none
 }
@@ -38,11 +44,16 @@ header {
 .menu {
     width: 25px;
     margin-top: 45%;
+    text-align: center;
 }
 
 .headerimg {
     width: 70%;
-    margin: 2em
+    margin: 2em;
+}
+
+img {
+    border: 5px solid #555;
 }
 
 h1,
@@ -57,7 +68,7 @@ h1,
 
 .blue-container {
     width: 100%;
-    background: #00C2FF;
+    background: #49666e;
     color: white;
     margin-top: 15%;
     padding: 4em 0 2em;
@@ -69,7 +80,7 @@ h1,
     content: "";
     width: 80px;
     height: 80px;
-    background-color: white;
+    background-color: #A9B2B9;
     top: -80px;
     position: absolute;
     right: 0;
@@ -81,7 +92,7 @@ h1,
     content: "";
     width: 40px;
     height: 40px;
-    background-color: #00C2FF;
+    background-color: #49666e;
     position: absolute;
     top: -39px;
     right: 0;
@@ -101,13 +112,12 @@ h1,
 }
 
 .gray-container {
-    background: #F6F6F6;
     padding: 4em 0 2em;
     margin-top: -3%;
 }
 
 .sbtn {
-    background: #00cc80;
+    background: #838f8a;
     width: calc(100% - 1em);
     display: block;
     color: #FFF;
@@ -119,7 +129,7 @@ h1,
 }
 
 .search {
-    background: #00cc80;
+    background: #838f8a;
     width: calc(100% - 1em);
     display: block;
     color: #FFF;
@@ -132,9 +142,19 @@ h1,
     z-index: 4;
 }
 
+.search1 {
+    background: #A9B2B9;
+    width: 10em;
+    color: black;
+    border-radius: 1em;
+    text-decoration: none;
+    z-index: 4;
+    margin: 1.2em 0 0 5em;
+}
+
 .footer {
     width: 100%;
-    background: #00C2FF;
+    background: #49666e;
     color: white;
     padding: 3em 0;
     border-top-right-radius: 40px;
@@ -149,7 +169,7 @@ h1,
     content: "";
     width: 40px;
     height: 40px;
-    background-color: #00C2FF;
+    background-color: #A9B2B9;
     position: absolute;
     top: -39px;
     left: 0;
@@ -160,7 +180,7 @@ h1,
     content: "";
     width: 80px;
     height: 80px;
-    background-color: #FFF;
+    background-color: #A9B2B9;
     position: absolute;
     z-index: -1;
     top: -80px;
@@ -213,7 +233,7 @@ nav ul li a:hover {
         width: 30%;
     }
     .headerimg {
-        width: 50%;
+        width: 30%;
     }
     h1 {
         font-size: 3em;
